@@ -74,7 +74,7 @@ import android.widget.Toast;
 
             edit_Fname= findViewById(R.id.edtname);
             edit_Lname = findViewById(R.id.Lname);
-            edit_email= findViewById(R.id.pass);
+            edit_pass= findViewById(R.id.pass);
             etEmail = findViewById(R.id.email);
             ivImage = findViewById(R.id.ivImage);
             btnExit = findViewById(R.id.btnExit);
