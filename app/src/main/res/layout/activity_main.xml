@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="86dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/First name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="First Name"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <EditText
+        android:id="@+id/last Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Last Name"
+        app:layout_constraintEnd_toEndOf="@+id/First name"
+        app:layout_constraintStart_toStartOf="@+id/First name"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        app:layout_constraintEnd_toEndOf="@+id/last Name"
+        app:layout_constraintStart_toStartOf="@+id/last Name"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editText4"
+        app:layout_constraintStart_toStartOf="@+id/editText4"
+        tools:layout_editor_absoluteY="478dp"
+        tools:text="Password" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="@+id/editText5"
+        app:layout_constraintStart_toStartOf="@+id/editText5"
+        tools:layout_editor_absoluteY="555dp" />
+
+</android.support.constraint.ConstraintLayout>
